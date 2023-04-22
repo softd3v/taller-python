@@ -6,7 +6,7 @@ app = FastAPI()
 async def main():
     return "SALUDOS!! LLEGAMOS AQUI Y AHORA QUE?"
 
-@app.get('/emppleado')
+@app.get('/empleado')
 async def empleado():
     return {"id": "EST3478",
             "nombre": "Jhon",
